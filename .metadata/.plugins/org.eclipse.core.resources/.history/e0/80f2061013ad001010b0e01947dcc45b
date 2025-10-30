@@ -1,0 +1,14 @@
+package com.paypal.user_service.service;
+
+import org.springframework.stereotype.Service;
+
+import com.paypal.user_service.repository.UserRepository;
+
+@Service
+public class UserServiceImpl {
+	private UserRepository userRepository;
+	
+	public UserServiceImpl(UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
+}
