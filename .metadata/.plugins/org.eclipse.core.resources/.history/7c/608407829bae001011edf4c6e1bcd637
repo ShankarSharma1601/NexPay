@@ -1,5 +1,0 @@
-package com.paypal.transaction_service.service;
-
-public class TransactionServiceImpl {
-
-}

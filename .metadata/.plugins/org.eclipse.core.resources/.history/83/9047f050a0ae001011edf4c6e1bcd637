@@ -1,8 +1,0 @@
-package com.paypal.transaction_service.kafka;
-
-import org.springframework.stereotype.Component;
-
-@Component
-public class KafkaEventProducer {
-
-}
